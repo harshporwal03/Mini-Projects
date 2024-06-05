@@ -1,6 +1,6 @@
-# Projects
+# Mini-Projects
 
-Welcome to the **Projects** repository! This repository serves as a collection of my mini projects, primarily focusing on web development using HTML, CSS, and JavaScript. As I continue to learn new technologies, I will keep updating this repository with new projects, demonstrating my progress and skills.
+Welcome to the **Mini-Projects** repository! This repository serves as a collection of my mini projects, primarily focusing on web development using HTML, CSS, and JavaScript. As I continue to learn new technologies, I will keep updating this repository with new projects, demonstrating my progress and skills.
 
 ## Table of Contents
 
