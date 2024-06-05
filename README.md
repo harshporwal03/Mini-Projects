@@ -22,13 +22,16 @@ This repository showcases a variety of mini projects including games, clones of 
 - **Rock Paper Scissors**: A game made with simple HTML, CSS & JavaScript.
 
 ### Clones
-- **Netflix Clone**: Clone of a Netflix Webapp.
+- **Netflix Clone**: Clone of Netflix Webapp using only HTML and CSS.
 
 ### Websites
 - **Omnifood**: A basic website demonstrating HTML and CSS skills.
 
 ### Others
-- **Calculator**: A basic calculator using HTML, CSS and JavaScript
+- **Calculator**: A basic calculator using HTML, CSS and JavaScript.
+- **To Do List**: A to do list to save your tasks using HTML, CSS and JavaScript.
+- **Quiz App**: A basic Quiz App for fun using HTML, CSS and JavaScript.
+- **Random Password Generator**: A Password Generator using HTML, CSS and JavaScript..
 
 ## Future Projects
 
