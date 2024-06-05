@@ -49,10 +49,10 @@ To run any of these projects locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/harshporwal03/projects.git
+    git clone https://github.com/harshporwal03/Mini-Projects.git
 2. Navigate to the project directory:
     ```sh
-    cd projects/project-name
+    cd Mini-Projects/project-name
 3. Open the index.html file in your preferred browser.
 
 ## Usage
