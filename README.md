@@ -1,6 +1,6 @@
-# Projects
+# Mini-Projects
 
-Welcome to the **Projects** repository! This repository serves as a collection of my mini projects, primarily focusing on web development using HTML, CSS, and JavaScript. As I continue to learn new technologies, I will keep updating this repository with new projects, demonstrating my progress and skills.
+Welcome to the **Mini-Projects** repository! This repository serves as a collection of my mini projects, primarily focusing on web development using HTML, CSS, and JavaScript. As I continue to learn new technologies, I will keep updating this repository with new projects, demonstrating my progress and skills.
 
 ## Table of Contents
 
@@ -49,10 +49,10 @@ To run any of these projects locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/harshporwal03/projects.git
+    git clone https://github.com/harshporwal03/Mini-Projects.git
 2. Navigate to the project directory:
     ```sh
-    cd projects/project-name
+    cd Mini-Projects/project-name
 3. Open the index.html file in your preferred browser.
 
 ## Usage
