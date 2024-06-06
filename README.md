@@ -18,24 +18,30 @@ This repository showcases a variety of mini projects including games, clones of 
 ## Projects
 
 ### Games
+
 - **Tic Tac Toe**: A simple game made with HTML, CSS & JavaScript.
 - **Rock Paper Scissors**: A game made with simple HTML, CSS & JavaScript.
 
 ### Clones
+
 - **Netflix Clone**: Clone of Netflix Webapp using only HTML and CSS.
 
 ### Websites
+
 - **Omnifood**: A basic website demonstrating HTML and CSS skills.
 
 ### Others
+
 - **Calculator**: A basic calculator using HTML, CSS and JavaScript.
 - **To Do List**: A to do list to save your tasks using HTML, CSS and JavaScript.
 - **Quiz App**: A basic Quiz App for fun using HTML, CSS and JavaScript.
-- **Random Password Generator**: A Password Generator using HTML, CSS and JavaScript..
+- **Random Password Generator**: A Password Generator using HTML, CSS and JavaScript.
+- **Notes App** : An App that uses HTML, CSS and JavaScript to save your notes.
 
 ## Future Projects
 
 As I learn new technologies, I will be adding projects related to:
+
 - React.js
 - Node.js
 - Express.js
@@ -51,11 +57,13 @@ As I learn new technologies, I will be adding projects related to:
 To run any of these projects locally, follow these steps:
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/harshporwal03/Mini-Projects.git
+   ```sh
+   git clone https://github.com/harshporwal03/Mini-Projects.git
+   ```
 2. Navigate to the project directory:
-    ```sh
-    cd Mini-Projects/project-name
+   ```sh
+   cd Mini-Projects/project-name
+   ```
 3. Open the index.html file in your preferred browser.
 
 ## Usage
@@ -65,13 +73,13 @@ Each project comes with its own set of instructions and features. Refer to the s
 ## Contributing
 
 I welcome contributions! If you have any ideas, suggestions, or improvements, please feel free to open an issue or submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
 1. Fork the repository
 2. Create your feature branch (git checkout -b feature/YourFeature)
 3. Commit your changes (git commit -m 'Add some feature')
 4. Push to the branch (git push origin feature/YourFeature)
 5. Open a pull request
 
-## 
+##
 
 Thank you for visiting! I hope you find these projects helpful and inspiring. Stay tuned for more updates as I continue to learn and grow as a developer.
-
