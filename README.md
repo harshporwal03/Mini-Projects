@@ -42,6 +42,7 @@ This repository showcases a variety of mini projects including games, clones of 
 - **QR Code Generator**: A QR Code Generator App using HTML, CSS and JavaScript.
 - **Quote App**: An app that generates quote made by using HTML, CSS and JavaScript.
 - **Stopwatch**: A simple stopwatch using HTML, CSS and JavaScript.
+- **Currency Converter**: A currency converter made by using HTML, CSS and JavaScript.
 
 ## Future Projects
 
