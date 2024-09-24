@@ -6,7 +6,6 @@ Welcome to the **Mini-Projects** repository! This repository serves as a collect
 
 - [About](#about)
 - [Projects](#projects)
-- [Future Projects](#future-projects)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -29,6 +28,7 @@ This repository showcases a variety of mini projects including games, clones of 
 ### Websites
 
 - **Omnifood**: A basic website demonstrating HTML and CSS skills.
+- **Ecommerce Website**: A responsive ecommerce website using HTML, CSS & JavaScript
 
 ### Others
 
@@ -43,20 +43,9 @@ This repository showcases a variety of mini projects including games, clones of 
 - **Quote App**: An app that generates quote made by using HTML, CSS and JavaScript.
 - **Stopwatch**: A simple stopwatch using HTML, CSS and JavaScript.
 - **Currency Converter**: A currency converter made by using HTML, CSS and JavaScript.
-
-## Future Projects
-
-As I learn new technologies, I will be adding projects related to:
-
-- React.js
-- Node.js
-- Express.js
-- MongoDB
-- Vue.js
-- Angular
-- SASS/SCSS
-- TypeScript
-- And more...
+- **Background Gradient Generator**: A RGB Gradient Generator using HTML, CSS and JavaScript.
+- **Weather App**: A simple weather application that uses open weather api for fetching weather data of different cities. Uses JavaScript, Html and CSS.
+- **Digital Clock**: A digital clock made using basic HTML, CSS and JavaScript.
 
 ## Installation
 

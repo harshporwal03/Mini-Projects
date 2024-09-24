@@ -79,22 +79,3 @@ async function checkWeather(city) {
 function reloadPage() {
   location.reload(); // Reloads the current page
 }
-// // const apiKey = "c85ad491f0403f8d384897505febaa02";
-// const apiKey = "b32014a7ae928e95032b65eba5d3859a";
-// const apiUrl =
-//   "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=b32014a7ae928e95032b65eba5d3859a&units=metric&q=";
-
-// // const weatherIcon = document.querySelector(".weather-icon");
-// // const searchBox = document.querySelector(".search input");
-// // const searchBtn = document.querySelector(".search button");
-// async function checkWeather(city) {
-//   const response = await fetch(apiUrl + city + `&appid = ${apiKey}`);
-//   if (response.status == 404) {
-//     document.querySelector(".error").style.display = "block";
-//     document.querySelector(".weather").style.display = "none";
-//   } else {
-//     let data = await response.json();
-
-//     console.log(data);
-//   }
-// }
