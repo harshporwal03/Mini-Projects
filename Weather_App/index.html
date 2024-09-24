@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bcc089e770.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="reload-icon" onclick="reloadPage()">
+        <i class="fas fa-sync-alt"></i>
+      </div>
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Enter City"
+          spellcheck="false"
+          id="input"
+        />
+        <button type="button" id="myButton">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="info">
+        <div class="temp-description"></div>
+        <img class="temp-img" src="" />
+        <div class="temp"></div>
+        <div class="other">
+          <div class="wind">
+            <p class="speed"></p>
+            <img class="wind-img" src="./img/wind.png" />
+          </div>
+          <div class="humid">
+            <p class="moist"></p>
+            <img class="humid-img" src="./img/humidity.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

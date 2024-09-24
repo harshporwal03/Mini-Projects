@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Gradient Generator</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: linear-gradient(
+          to right,
+          #004773,
+          #54d542
+        ); /* Initial background gradient */
+        transition: background-image 0.3s ease; /* Smooth background change */
+      }
+
+      section {
+        background-color: rgba(255, 255, 255, 0.3); /* Transparent background */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      div {
+        margin-bottom: 20px;
+      }
+
+      button {
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 0 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Smooth color change */
+      }
+
+      button:hover {
+        opacity: 0.9;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .copyCode {
+        background-color: rgba(240, 240, 240, 0.8); /* Slightly transparent */
+        padding: 10px;
+        border-radius: 5px;
+        font-family: monospace;
+        font-size: 16px;
+        color: #333;
+        cursor: pointer;
+      }
+
+      .copyCode:hover {
+        background-color: rgba(
+          224,
+          224,
+          224,
+          0.8
+        ); /* Slightly transparent hover */
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>
+        <button id="myButton" style="background-color: #004773">#004773</button>
+        <button id="myButton2" style="background-color: #54d542">
+          #54d542
+        </button>
+      </div>
+      <h2>Copy the code from below!</h2>
+      <div class="copyCode">
+        background-image: linear-gradient(to right, #004773, #54d542);
+      </div>
+    </section>
+    <script>
+      let btn1 = document.getElementById("myButton");
+      let btn2 = document.getElementById("myButton2");
+      let copyDiv = document.querySelector(".copyCode");
+      let rgb1 = "#004773"; // Initial gradient color
+      let rgb2 = "#54d542"; // Initial gradient color
+
+      // Function to generate random hex color
+      const hexValues = () => {
+        let hexaValues = "0123456789abcdef";
+        let colors = "#";
+        for (let i = 0; i < 6; i++) {
+          colors += hexaValues[Math.floor(Math.random() * 16)];
+        }
+        return colors;
+      };
+
+      const handleButton1 = () => {
+        rgb1 = hexValues(); // Generate new random color for rgb1
+        btn1.innerText = rgb1; // Update button text
+        btn1.style.backgroundColor = rgb1; // Update button background color
+        document.body.style.backgroundImage = `linear-gradient(to right, ${rgb1}, ${rgb2})`;
+        copyDiv.innerText = `background-image: linear-gradient(to right, ${rgb1}, ${rgb2});`;
+      };
+
+      const handleButton2 = () => {
+        rgb2 = hexValues(); // Generate new random color for rgb2
+        btn2.innerText = rgb2; // Update button text
+        btn2.style.backgroundColor = rgb2; // Update button background color
+        document.body.style.backgroundImage = `linear-gradient(to right, ${rgb1}, ${rgb2})`;
+        copyDiv.innerText = `background-image: linear-gradient(to right, ${rgb1}, ${rgb2});`;
+      };
+
+      // Event listeners for buttons
+      btn1.addEventListener("click", handleButton1);
+      btn2.addEventListener("click", handleButton2);
+
+      // Copy to clipboard functionality
+      copyDiv.addEventListener("click", () => {
+        navigator.clipboard.writeText(copyDiv.innerText);
+        alert("Gradient copied to clipboard!");
+      });
+    </script>
+  </body>
+</html>

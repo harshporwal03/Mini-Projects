@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Clock</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="display">
+        <p class="time"></p>
+        <p class="date"></p>
+      </div>
+    </div>
+    <script>
+      const t = document.querySelector(".time");
+      const d = document.querySelector(".date");
+
+      const getTime = () => {
+        const currTime = new Date().toLocaleTimeString();
+        t.textContent = currTime;
+        // return currTime;
+        todayDate();
+      };
+
+      const todayDate = () => {
+        const currDate = new Date().toLocaleDateString();
+        d.textContent = `Date: ${currDate}`;
+        return currDate;
+      };
+
+      // Call getTime every 1000 milliseconds (1 second)
+      setInterval(getTime, 1000);
+    </script>
+  </body>
+</html>

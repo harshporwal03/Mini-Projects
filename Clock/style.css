@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #000000;
+  background-image: url(img/stars-1436950_640.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  /* Adjusted dimensions */
+  width: 600px;
+  height: 200px;
+  padding: 50px; /* Adjusted padding */
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(101, 102, 184), 0 0 30px rgb(101, 102, 184);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  background-color: black;
+  border-radius: 20px;
+  padding: 38px 150px; /* Adjusted padding for better appearance */
+  max-width: fit-content;
+}
+
+.time {
+  font-size: 50px;
+  white-space: nowrap;
+  color: #fefefe;
+  overflow: hidden; /* Ensures overflow is hidden */
+  text-overflow: ellipsis; /* Adds ... if the text overflows */
+}
+
+.date {
+  color: #fefefe;
+  font-size: 16px;
+  text-align: right;
+  margin-top: 10px;
+}
