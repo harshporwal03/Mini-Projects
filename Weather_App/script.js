@@ -29,7 +29,7 @@ button.addEventListener("click", () => {
 });
 
 async function checkWeather(city) {
-  const api_key = "b32014a7ae928e95032b65eba5d3859a";
+  const api_key = "/*enter your api key here*/";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`;
 
   const weather_data = await fetch(`${url}`).then((response) =>
