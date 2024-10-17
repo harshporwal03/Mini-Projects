@@ -75,6 +75,6 @@ I welcome contributions! If you have any ideas, suggestions, or improvements, pl
 4. Push to the branch (git push origin feature/YourFeature)
 5. Open a pull request
 
-##
+## Happy Coding! 🎉
 
 Thank you for visiting! I hope you find these projects helpful and inspiring. Stay tuned for more updates as I continue to learn and grow as a developer.
